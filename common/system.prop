@@ -1,0 +1,16 @@
+#Encryption props
+ro.crypto.state=encrypted
+
+# Bootloader and Verified Boot Spoof Props
+ro.boot.vbmeta.device_state=locked
+ro.boot.verifiedbootstate=green
+ro.boot.flash.locked=1
+ro.boot.veritymode=enforcing
+ro.boot.vbmeta.avb_version=1.0
+
+# Additional useful props to fake locked state
+ro.secure=1
+ro.debuggable=0
+ro.adb.secure=1
+persist.sys.root_access=0
+ro.oem_unlock_supported=0

@@ -1,0 +1,6 @@
+id=fake_encryption_and_BLL
+name=Fake Encryption and Bootloader lock
+version=1.0
+versionCode=1
+author=Vignesh_Vijay_K
+description=Sets fake encryption and Bootloader flags , helps to pass security checks related to bootlader unlock and encryption.
